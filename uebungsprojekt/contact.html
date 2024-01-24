@@ -6,17 +6,80 @@
 </head>
 
 <body>
-    <ul>
-        <li><a href="index.html">Startseite</a></li>
-        <li><a href="about.html">Über Bowmayster</a></li>
-        <li><a href="architecture.html">Architektur</a></li>
-        <li><a href="consulting.html">Beratung</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-        <li><a href="legal.html">Impressum & Datenschutz</a></li>
-    </ul>
+    <header>
+        
+        <div id="site-branding">
+            <p>Bowmayster Architekturen</p>
+        </div>
 
-    <h1>Kontakt</h1>
+        <nav id="main-navigation">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="about.html">Über Bowmayster</a></li>
+                <li><a href="architecture.html">Architektur</a></li>
+                <li><a href="consulting.html">Beratung</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
 
-</body>
 
-</html>
+        <h1>Kontakt</h1>
+        <hr>
+    </header>
+
+    <main>
+        <p>
+            Für Anfragen oder um mehr Informationen über unsere Leistungen zu erhalten, benutzen Sie bitte das untenstehende Kontaktformular.
+        </p>
+        <p>
+            Wir werden uns umgehend bei Ihnen melden. <br>Vielen Dank!
+        </p>
+        <form>
+            <hr>
+            <label for="firstname">Vorname:</label>
+
+
+            <input type="text" id="firstname" name="firstname">
+
+
+            <label for="familyname">Nachname:</label>
+
+
+            <input type="text" id="familyname" name="familyname">
+            <br><br>
+
+
+            <label for="email">E-Mail:</label>
+            <br>
+
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+
+            <label for="subject">Betreff:</label>
+            <br>
+
+            <input type="text" id="subject" name="subject" required>
+            <br><br>
+
+
+            <label for="message">Nachricht:</label>
+            <br>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <br><br>
+            <input type="submit" value="Absenden">
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <nav id="footer-navigation">
+            <ul>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="legal.html">Impressum & Datenschutz</a></li>
+            </ul>
+        </nav>
+        <p> &copy; 2024 Bowmayster Architekturen Berlin</p>
+    </footer>
+
+</body></html>
