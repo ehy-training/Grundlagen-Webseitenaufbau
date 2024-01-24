@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag 3: Formulare</title>
+</head>
+
+<body>
+    <header>
+        <p><a href="index.html">Startseite</a></p>
+        <h1>Formulare</h1>
+        <hr>
+    </header>
+
+    <main>
+
+        <section>
+
+            <h2>Warum Formulare in HTML?</h2>
+
+            <p>
+                Formulare ermöglichen es Benutzern, Daten auf einer Webseite zu senden. Sie sind entscheidend für die Interaktion zwischen Nutzern und Webseiten, da sie es erlauben, Informationen zu übermitteln, Anfragen zu senden oder sich anzumelden.
+            </p>
+
+            <p>
+                Ein HTML-Formular wird umschlossen vom FORM-Tag. Innerhalb des Formulars befinden sich verschiedene Eingabeelemente, die durch Tags wie INPUT, TEXTAREA, und LABEL repräsentiert werden. Das LABEL-Tag wird verwendet, um einen lesbaren Text für jedes Eingabefeld bereitzustellen.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Beispiel: Kontaktformular</h2>
+
+            <p>
+                Ein Kontaktformular besteht aus verschiedenen Eingabeelementen, in denen Benutzer ihre Informationen eingeben können. Typischerweise beinhaltet es Felder für den Namen, die E-Mail-Adresse, den Betreff und die eigentliche Nachricht. Der Aufbau ist strukturiert, um eine klare Erfassung der Benutzerdaten zu ermöglichen.
+            </p>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Betreff:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Absenden">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>Eine Seite von Enno Hyttrek</p>
+    </footer>
+
+</body></html>
