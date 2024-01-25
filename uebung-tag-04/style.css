@@ -1,8 +1,149 @@
-            header {
-                background: orange
-            }
-            
-            p {
-                 background: red;
-                color: white
-            }
+ /*
+Dies ist das zentrale externe Stylesheet für die Übungen an Tag 4.
+*/
+
+
+
+ /*---------------------
+LAYOUT
+---------------------*/
+
+ body,
+ h1,
+ h2,
+ h3,
+ p,
+ ul {
+     margin: 0;
+     padding: 20px
+ }
+
+ body {
+     padding: 0;
+ }
+
+ h1,
+ h2,
+ h3,
+ p {
+     padding-bottom: 0;
+     padding-top: 0;
+     margin-bottom: 1em;
+ }
+
+ h3 {
+     padding-top: 1em;
+ }
+
+ main {
+     min-height: 150vh;
+ }
+
+ header,
+ main,
+ footer {
+     padding-bottom: 1em;
+     padding-top: 1em;
+ }
+
+
+ /*---------------------
+NAVIGATION
+---------------------*/
+/*
+Die CSS Gestaltung der Hauptnavigation ist ehrlich gesagt schon ziemlich fortgeschrittenes CSS, aber probiert es ruhig selbs einmal aus in eurem Übungsprojekt.
+*/
+
+
+nav.main-nav {
+    position: sticky;
+    top: 0;
+}
+
+nav.main-nav ul {
+    display: flex;
+   list-style-type: none; 
+}
+
+nav.main-nav ul li {
+    padding-right: 1em;
+}
+
+nav.main-nav ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+
+nav.main-nav ul li a:hover {
+    color: #fff;
+}
+
+
+ /*---------------------
+TYPOGRAPHY
+---------------------*/
+
+ body {
+     font-family: 'Roboto', Arial, sans-serif;
+     font-weight: 300;
+     line-height: 1.5;
+ }
+
+ h1,
+ h2 {
+     font-family: 'Lobster';
+     font-family: 'Borel';
+     font-size: 3em;
+ }
+
+ h2 {
+     font-size: 2em;
+ }
+
+ h3 {
+     text-transform: uppercase;
+ }
+
+footer {
+    font-size: 0.8em;
+}
+
+
+em {
+    font-weight: 400;
+}
+
+.my-em {
+    text-transform: uppercase;
+    font-weight: 400;
+    background: hsl(200,20%,80%);
+    padding: 0.1em 0.85em;
+}
+
+
+ /*---------------------
+COLOR & STYLE
+---------------------*/
+
+ body {
+     background: hsl(200, 10%, 30%);
+ }
+
+ body,
+ a {
+     color: #fff;
+ }
+
+ header,
+ .main-nav {
+     background: hsl(200, 10%, 50%);
+ }
+
+ main {
+     background: #fff;
+     color: #000;
+ }
+
+em {
+color: rgb(255,0,0);
+}
