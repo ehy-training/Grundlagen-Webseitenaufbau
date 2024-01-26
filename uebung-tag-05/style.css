@@ -14,6 +14,10 @@ RESET
     /*Diese Zeile ist notwendig um mit CSS sauberes Layout zu erstellen.*/
 }
 
+img {
+    width: 100%;
+}
+
 
 /*---------------------
 LAYOUT
@@ -35,6 +39,11 @@ ul {
     padding: 1em 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*---------------------
@@ -117,6 +126,46 @@ nav.main-nav {
     font-weight: 500;
     text-transform: uppercase;
 }
+
+/*---------------------
+RESPONSIVE DESIGN
+---------------------*/
+
+
+@media only screen and (min-width: 580px) {
+
+    main h2 {
+        width: 100%;
+    }
+    
+    main h3 {
+        height: 5em;
+        padding-top: 2em;
+    }
+    
+    section {
+        width: 50%;
+        padding: 0 8px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 900px) {
+    
+    section {
+        width: 33.33%;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
