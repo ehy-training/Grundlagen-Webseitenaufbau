@@ -1,0 +1,44 @@
+/*
+Hauptstylesheet
+*/
+
+
+/*---------------------
+RESET
+---------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Diese Zeile ist notwendig um mit CSS sauberes Layout zu erstellen.*/
+}
+
+
+/*---------------------
+LAYOUT
+---------------------*/
+
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin-bottom: 1em;
+}
+
+.main-nav ul,
+.container {
+    padding: 1em 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*---------------------
+COLOR & STYLE
+---------------------*/
+
+header {
+    background: hsl(200,10%,50%);
+}
+
+
+
+
+

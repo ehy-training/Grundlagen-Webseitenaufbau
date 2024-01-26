@@ -2,29 +2,67 @@
 <html>
 <head>
     <title>Tag #: [Thema]</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <p>
-                <a href="index.html">Startseite</a>
-            </p>
-        </nav>
+        <div class="container">
+            <nav class="site-title">
+                <p>
+                    <a href="index.html">[Titel der Website]</a>
+                </p>
+            </nav>
 
-        <h1>[Inhaltsseite]</h1>
+            <h1>[Inhaltsseite]</h1>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>[Abschnitt Überschrift]</h2>
-            <p>[Text]</p>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#">[Thema]</a></li>
+            <li><a href="#">[Thema]</a></li>
+            <li><a href="#">[Thema]</a></li>
+        </ul>
+    </nav>
 
-        </section>
+    <main>
+        <div class="container">
+            <section id="section-01">
+                <h2>[Abschnitt 1 Überschrift]</h2>
+                <p>[Text]</p>
+            </section>
+
+            <section id="section-02">
+                <h2>[Abschnitt 2 Überschrift]</h2>
+                <p>[Text]</p>
+            </section>
+
+            <section id="section-03">
+                <h2>[Abschnitt 3 Überschrift]</h2>
+                <p>[Text]</p>
+            </section>
+        </div>
     </main>
 
+    <aside>
+       <div class="container">
+        <h2>Weiterführende Inhalte</h2>
+        <p>[Text]</p>
+        </div>
+    </aside>
+
     <footer>
-        <p>&copy; [Vorname Name]</p>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">Datenschutz</a></li>
+                </ul>
+            </nav>
+            <p>&copy; [Vorname Name]</p>
+        </div>
     </footer>
 
 </body></html>
