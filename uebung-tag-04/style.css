@@ -50,33 +50,35 @@ LAYOUT
  /*---------------------
 NAVIGATION
 ---------------------*/
-/*
+ /*
 Die CSS Gestaltung der Hauptnavigation ist ehrlich gesagt schon ziemlich fortgeschrittenes CSS, aber probiert es ruhig selbst einmal aus in eurem Übungsprojekt.
 */
 
 
-nav.main-nav {
-    position: sticky;
-    top: 0;
-}
 
-nav.main-nav ul {
-    display: flex;
-   list-style-type: none; 
-}
+ nav.main-nav {
+     position: sticky;
+     top: 0;
+ }
 
-nav.main-nav ul li {
-    padding-right: 1em;
-}
+ nav.main-nav ul {
+     display: flex;
+     list-style-type: none;
+ }
 
-nav.main-nav ul li a {
-    text-decoration: none;
-    color: rgba(255,255,255,0.5);
-}
+ nav.main-nav ul li {
+     padding-right: 1em;
+ }
 
-nav.main-nav ul li a:hover {
-    color: #fff;
-}
+ nav.main-nav ul li a {
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.5);
+ }
+
+ nav.main-nav ul li a:hover {
+     color: #fff;
+ }
+
 
 
  /*---------------------
@@ -104,21 +106,21 @@ TYPOGRAPHY
      text-transform: uppercase;
  }
 
-footer {
-    font-size: 0.8em;
-}
+ footer {
+     font-size: 0.8em;
+ }
 
 
-em {
-    font-weight: 400;
-}
+ em {
+     font-weight: 400;
+ }
 
-.my-em {
-    text-transform: uppercase;
-    font-weight: 400;
-    background: hsl(200,20%,80%);
-    padding: 0.1em 0.85em;
-}
+ .my-em {
+     text-transform: uppercase;
+     font-weight: 400;
+     background: hsl(200, 20%, 80%);
+     padding: 0.1em 0.85em;
+ }
 
 
  /*---------------------
@@ -136,7 +138,7 @@ COLOR & STYLE
 
  header,
  .main-nav {
-     background: hsl(200, 10%, 50%);
+     background: hsl(100, 70%, 40%);
  }
 
  main {
@@ -144,6 +146,6 @@ COLOR & STYLE
      color: #000;
  }
 
-em {
-color: rgb(255,0,0);
-}
+ em {
+     color: rgb(255, 0, 0);
+ }
