@@ -1,14 +1,22 @@
 /*
 Dieses Stylesheet ist nur für den Einsatz mit dem Dokument css-erste-schritte.html gedacht, um die Übung so einfach wie möglich zu halten. Normalerweise werden externe Stylesheets mit mehr als einem HTML Dokument verknüpft.
-*/        
+*/
 
 p {
-            background: #000;
-            color: #fff;
-            padding: 10px;
-            width: 50%;
-            border-radius: 10px;
-            font-size: 1.3rem; /*1rem = 16px*/
-            font-family: Arial;
-        }
+    background: #000;
+    color: hsl(0, 50%, 30%);
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    /*1rem = 16px*/
+    font-family: Arial;
+}
 
+
+/*
+p {
+    border-radius: 50%;
+}
+*/
