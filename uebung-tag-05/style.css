@@ -46,6 +46,21 @@ ul {
     flex-wrap: wrap;
 }
 
+h1 span {
+    padding: 0 0.3em;
+}
+
+
+.site-title {
+    display: inline-block;
+    padding: 0 0.3em;
+}
+
+.site-title p {
+    margin: 0;
+}
+
+
 /*---------------------
 NAVIGATION
 ---------------------*/
@@ -82,6 +97,12 @@ header {
     background: hsl(200, 20%, 50%);
 }
 
+header {
+    background-image: url(img/stained-glass-1589648_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 main,
 aside {
     background: #fff;
@@ -94,6 +115,11 @@ nav.nav-bar a {
 
 nav.nav-bar a:hover {
     color: rgba(255,255,255,1)
+}
+
+.site-title,
+h1 span {
+    background: hsla(200, 50%, 10%,0.8);
 }
 
 
