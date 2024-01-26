@@ -1,0 +1,125 @@
+/*
+Hauptstylesheet
+*/
+
+
+/*---------------------
+RESET
+---------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Diese Zeile ist notwendig um mit CSS sauberes Layout zu erstellen.*/
+}
+
+
+/*---------------------
+LAYOUT
+---------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-bottom: 1em;
+}
+
+.main-nav ul,
+.container {
+    padding: 1em 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*---------------------
+NAVIGATION
+---------------------*/
+
+nav.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav.nav-bar ul li {
+    padding-right: 1em;
+}
+
+.site-title a,
+nav.nav-bar ul li a {
+    text-decoration: none;
+}
+
+
+/*---------------------
+COLOR & STYLE
+---------------------*/
+
+body {
+    background: hsl(200, 50%, 20%);
+}
+
+body, a {
+      color: #fff;  
+}
+
+nav.main-nav,
+header {
+    background: hsl(200, 20%, 50%);
+}
+
+main,
+aside {
+    background: #fff;
+    color: #000;
+}
+
+nav.nav-bar a {
+    color: rgba(255,255,255,0.7)
+}
+
+nav.nav-bar a:hover {
+    color: rgba(255,255,255,1)
+}
+
+
+/*---------------------
+TYPOGRAPHY
+---------------------*/
+
+body {
+    font-family: 'Work Sans';
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Petrona', serif;
+    font-style: italic;
+    font-size: 3em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+}
+
+nav.main-nav,
+footer {
+    font-size: 0.8em;
+}
+
+nav.main-nav {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
