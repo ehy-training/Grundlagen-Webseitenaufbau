@@ -65,6 +65,12 @@ h1 span {
 NAVIGATION
 ---------------------*/
 
+nav.main-nav {
+    position: sticky;
+    top: 0;
+}
+
+
 nav.nav-bar ul {
     display: flex;
     list-style-type: none;
@@ -92,7 +98,7 @@ body, a {
       color: #fff;  
 }
 
-nav.main-nav,
+
 header {
     background: hsl(200, 20%, 50%);
 }
@@ -101,6 +107,10 @@ header {
     background-image: url(img/stained-glass-1589648_1920.jpg);
     background-size: cover;
     background-position: center;
+}
+
+nav.main-nav {
+    background: hsla(200, 40%, 20%,0.9);
 }
 
 main,
